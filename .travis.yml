@@ -2,7 +2,7 @@ language: java
 
 addons:
   sonarcloud:
-    organization: "pablo-morillas"
+    organization: "ceraalex99"
     token:
       secure: "tFRtPsGwQEoT7yQyvc5hqg576Uh4rt/k6vXOQKYFbgJBFCkV1PMyqueD9w1XGeAWZECAsn2kUl2a9GnpIhYRo0X7h9M9pY1XAp+JNM80Qzv+O+mTcxKNEfG6D5yFz3e9DQgAJ4oF6EhbMHRDqpMLfPCD/ZvMQQ1aUHUtLcLGJH8YRmONrCKXDGpBzzny+LU5ThMUFs12yIskSqn7N/oW/EOHkax7Y4KvNPj9ra540UBY5LaW8MhVnQL0Rykw+1tWlGOixAe8wQeyFeKmH4RVeRoq1avWrWRiyVOpm+eG7bNO0n/UAdj+ZF24aYEAX/JuHhNuwV58W2k33LPWMcXK8r3wANMmSd73MkUTzK9C4EW8G9Uy+OIzeSpzQ9JZK/+Y5gSYo0a//6lc0GxWIREAnX238zGNr3+wyhgzxlxpzxswtgYLdsTsSYtYzbfpDQNgdOPaJUq1o9l3Hy47dzDWJj2T3f5ZML7915T4dveibnyhKfKppMB03R6OY+DeZGdgHMUKnRFEGSTblj8LfejdXl4LpNsb8wABEqgJYuTYulMGOx0arh/wzy5x1cGrJrEQGJ/XxM9G68K2x6G7aadFTpNnvueCEwhFOzKOYPzGV5VXiX7ogJfvRcV07+RPlMFKG50ULFrJQAZiOtH7pJl5wNc8V0vuHA8pjoQRXXGJGvo="
 
