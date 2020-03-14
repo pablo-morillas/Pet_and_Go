@@ -27,14 +27,18 @@ public class Main {
 
         //Prueba Add user
         Usuario user = new Usuario("Mercedee10", "Mercedee10", "Mercedee10", "Mercedee10", "1234", ".com");
-        usuariosBD.addUser(user);
+        usuariosBD.add(user);
+
+        //Update
+        user.setNombre("dolores2");
+        usuariosBD.update(user);
 
         //Prueba getUser
-        user = usuariosBD.GetUsuario(11);
+        user = usuariosBD.get(11);
         System.out.println(user.toString());
 
         //Prueba getAll
-        List<Usuario> usuarios = usuariosBD.GetUsuarios();
+        List<Usuario> usuarios = usuariosBD.getAll();
         for (Usuario user1 : usuarios) {
             System.out.println(user1.toString());
         }

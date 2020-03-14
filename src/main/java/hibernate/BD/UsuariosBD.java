@@ -19,7 +19,7 @@ public class UsuariosBD {
         if (session == null) session = sessionFactory.openSession();
     }
 
-    public Usuario addUser(Usuario user){
+    public Usuario add(Usuario user){
         newSession();
         session.beginTransaction();
         session.save(user);
@@ -27,12 +27,21 @@ public class UsuariosBD {
         return user;
     }
 
-    public Usuario GetUsuario(Integer pId){
+    public void update(Usuario user){
         newSession();
-        return  session.get(Usuario.class, pId);
+        session.beginTransaction();
+        session.update(user);
+        session.getTransaction().commit();
+
     }
 
-    public List<Usuario> GetUsuarios(){
+    public Usuario get(Integer pId){
+        newSession();
+
+        return session.get(Usuario.class, pId);
+    }
+
+    public List<Usuario> getAll(){
         newSession();
         return session.createQuery("FROM Usuario").getResultList();
     }
